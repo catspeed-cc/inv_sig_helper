@@ -8,6 +8,8 @@ export SCRIPT_PATH=`dirname $SCRIPT`
 
 . ${SCRIPT_PATH}/config.cfg
 
+. ${HOME}/.bashrc
+
 echo ""
 echo "Installing inv_sig_helper inside ${DOCKER_CONTAINER_NAME} docker container"
 echo ""
