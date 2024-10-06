@@ -1,0 +1,12 @@
+
+# DOCKER CONTAINER NAME (can change or leave it)
+DOCKER_CONTAINER_NAME=inv-sig-helper
+
+# DOCKER CONTAINER IP (can change or leave it)
+DOCKER_CONTAINER_IP=172.50.0.3
+
+# DOCKER SUBNET (can change or leave it)
+DOCKER_CONTAINER_SUBNET=172.50.0.0/16
+
+# DOCKER NETWORK NAME (can change or leave it)
+DOCKER_NETWORK_NAME=pvpnnet
