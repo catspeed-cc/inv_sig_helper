@@ -1,3 +1,10 @@
+# REPOSITORY MOVED
+Please note the repository has been moved from mooleshacat/inv_sig_helper to catspeed-cc/inv_sig_helper.
+
+You can update your local clone with ```git remote set-url origin https://github.com/catspeed-cc/inv_sig_helper```
+
+<br />
+
 # inv_sig_helper
 
 `inv_sig_helper` is a Rust service that decrypts YouTube signatures and manages player information. It offers a TCP/Unix socket interface for signature decryption and related operations.
