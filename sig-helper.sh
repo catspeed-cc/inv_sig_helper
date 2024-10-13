@@ -17,6 +17,8 @@ echo ""
 # Change directory in case being called with absolute path from a different PWD
 cd ${SCRIPT_PATH}
 
-git pull
+# git pull
 
-cargo build --release
+# cargo build --release
+
+docker compose up -d

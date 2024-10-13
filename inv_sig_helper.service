@@ -68,11 +68,11 @@ SystemCallFilter=~@resources
 SystemCallFilter=~@cpu-emulation
 SystemCallFilter=~@obsolete
 
-BindReadOnlyPaths=/home/invidious/inv_sig_helper
-BindPaths=/home/invidious/tmp
+BindReadOnlyPaths=/root/remote-repos/inv_sig_helper
+BindPaths=/root/remote-repos/inv_sig_helper
 
-WorkingDirectory=/home/invidious/inv_sig_helper
-ExecStart=/home/invidious/inv_sig_helper/target/release/inv_sig_helper_rust /home/invidious/tmp/inv_sig_helper.sock
+WorkingDirectory=/root/remote-repos/inv_sig_helper
+ExecStart=/root/remote-repos/inv_sig_helper/target/release/inv_sig_helper_rust --tcp 127.0.0.1:4444
 
 Restart=always
 
