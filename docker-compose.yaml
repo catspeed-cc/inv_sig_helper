@@ -5,10 +5,11 @@ services:
       context: .
       dockerfile: Dockerfile
     # image: quay.io/invidious/inv-sig-helper:latest
+    container_name: sig-helper-1
     #init: true
-    command: ["--tcp", "127.0.0.1:12999"]
+    command: ["--tcp", "0.0.0.0:12999"]
     ports:
-      - 127.0.0.1:12999:12999
+      - 0.0.0.0:12999:12999
     environment:
       - RUST_LOG=info
     restart: unless-stopped
