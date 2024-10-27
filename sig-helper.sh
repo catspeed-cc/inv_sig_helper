@@ -19,4 +19,6 @@ cd ${SCRIPT_PATH}
 
 git pull
 
-cargo build --release
+#cargo build --release
+
+docker-compose up -d
